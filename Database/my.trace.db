@@ -1,0 +1,12 @@
+2018-05-22 14:29:49 jdbc[3]: exception
+org.h2.jdbc.JdbcSQLException: Table "TEST" not found; SQL statement:
+SELECT * FROM TEST [42102-197]
+2018-05-22 14:30:21 jdbc[3]: exception
+org.h2.jdbc.JdbcSQLException: Table "TEST" not found; SQL statement:
+SELECT * FROM TEST [42102-197]
+2018-05-22 14:30:30 jdbc[3]: exception
+org.h2.jdbc.JdbcSQLException: Syntax error in SQL statement "SELECT * FROM *[*]"; expected "identifier"; SQL statement:
+SELECT * FROM * [42001-197]
+2018-05-22 14:30:58 jdbc[3]: exception
+org.h2.jdbc.JdbcSQLException: Table "TEST" not found; SQL statement:
+SELECT * FROM test [42102-197]
